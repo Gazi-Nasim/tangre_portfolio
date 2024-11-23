@@ -34,22 +34,22 @@
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="{{asset('front_assetsindex.html')}}">home</a></li>
-                    <li><a href="{{asset('front_assets/portfolio.html')}}">portfolio</a></li>
-                    <li><a href="{{asset('front_assets/about.html')}}">about</a></li>
-                    <li class="menu-has-children"><a href="{{asset('front_assets')}}">blog</a>
+                    <li class="menu-active"><a href="{{url('/home')}}">home</a></li>
+                    <li><a href="{{url('portfolio')}}">portfolio</a></li>
+                    <li><a href="{{url('about')}}">about</a></li>
+                    <li class="menu-has-children"><a href="#">blog</a>
                         <ul>
-                            <li><a href="{{asset('front_assets/blog-home.html')}}">Blog Home</a></li>
-                            <li><a href="{{asset('front_assets/blog-single.html')}}">Blog Single</a></li>
+                            <li><a href="{{url('blog-home')}}">Blog Home</a></li>
+                            <li><a href="{{url('blog-single')}}">Blog Single</a></li>
                         </ul>
                     </li>
                     <li class="menu-has-children"><a href="">Pages</a>
                         <ul>
-                            <li><a href="{{asset('front_assets/portfolio-details.html')}}">Portfolio Details</a></li>
-                            <li><a href="{{asset('front_assets/elements.html')}}">Elements</a></li>
+                            <li><a href="{{url('portfolio-details')}}">Portfolio Details</a></li>
+                            <li><a href="{{url('elements')}}">Elements</a></li>
                         </ul>
                     </li>
-                    <li><a href="{{asset('front_assets/contact.html')}}">Contact</a></li>
+                    <li><a href="{{url('contact')}}">Contact</a></li>
                 </ul>
             </nav>
             <!--######## #nav-menu-container -->

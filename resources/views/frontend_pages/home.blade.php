@@ -14,7 +14,7 @@
 </section>
 @section('extra_script')
 <script>
-    alert("nice")
+    // alert("nice")
 </script>
 @endsection
 @endsection

@@ -431,7 +431,7 @@
 <!--######## End Latest Blog Area ########-->
 @section('extra_script')
 <script>
-    alert("Hi ..............")
+    // alert("Hi ..............")
 </script>
 @endsection
 @endsection
