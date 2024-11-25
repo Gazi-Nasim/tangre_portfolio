@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('frontend_pages.welcome');
+    return view('frontend_pages.home');
 });
 
 Route::get('/home', function () {
