@@ -34,22 +34,23 @@
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="{{url('/home')}}">home</a></li>
+                    {{-- <li class="menu-active"><a href="{{url('/home')}}">home</a></li> --}}
+                    <li><a href="{{url('about')}}">about us</a></li>
+                    <li><a href="{{url('portfolio')}}">Serivices</a></li>
                     <li><a href="{{url('portfolio')}}">portfolio</a></li>
-                    <li><a href="{{url('about')}}">about</a></li>
-                    <li class="menu-has-children"><a href="#">blog</a>
+                    {{-- <li class="menu-has-children"><a href="#">blog</a>
                         <ul>
                             <li><a href="{{url('blog-home')}}">Blog Home</a></li>
                             <li><a href="{{url('blog-single')}}">Blog Single</a></li>
                         </ul>
-                    </li>
-                    <li class="menu-has-children"><a href="">Pages</a>
+                    </li> --}}
+                    {{-- <li class="menu-has-children"><a href="{{url('elements')}}">Portfolio</a>
                         <ul>
                             <li><a href="{{url('portfolio-details')}}">Portfolio Details</a></li>
                             <li><a href="{{url('elements')}}">Elements</a></li>
                         </ul>
-                    </li>
-                    <li><a href="{{url('contact')}}">Contact</a></li>
+                    </li> --}}
+                    <li><a href="{{url('contact')}}">Contact Us</a></li>
                 </ul>
             </nav>
             <!--######## #nav-menu-container -->
