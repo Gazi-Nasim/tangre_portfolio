@@ -25,3 +25,4 @@
 <link rel="stylesheet" href="{{asset('front_assets/css/animate.min.css')}}">
 <link rel="stylesheet" href="{{asset('front_assets/css/owl.carousel.css')}}">
 <link rel="stylesheet" href="{{asset('front_assets/css/main.css')}}">
+@yield('css')
