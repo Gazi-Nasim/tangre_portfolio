@@ -1,5 +1,5 @@
 <header id="header" id="home">
-    <div class="header-top">
+    {{-- <div class="header-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-6 col-4 no-padding">
@@ -26,11 +26,13 @@
             </div>
         </div>
     </div>
-    <hr>
+    <hr> --}}
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
-            <div id="logo">
-                <a href="{{asset('front_assets/index.html')}}"><img src="{{asset('front_assets/img/logo.png')}}" alt="" title="" /></a>
+            <div id="logo" >
+                <a href="{{asset('front_assets/index.html')}}">
+                    <img style="height: 80px ;width: 100px " src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
+                </a>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">

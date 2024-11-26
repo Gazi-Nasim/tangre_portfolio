@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
-                        <img class="card-top-img" style="height: 600px;" src="{{ asset('front_assets/img/news/n1.jpg') }}"
+                        <img class="card-top-img" style="height: 600px;" src="{{ asset('front_assets/img/celling.png') }}"
                             alt="Card image cap">
                         <div class="card-body ">
                             <h4 class="card-title text-center">
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
-                        <img class="card-top-img" style="height: 600px;" src="{{ asset('front_assets/img/news/n2.jpg') }}"
+                        <img class="card-top-img" style="height: 600px;" src="{{ asset('front_assets/img/Wooden work.png') }}"
                             alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title text-center">
@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
-                        <img class="card-top-img" style="height: 600px;" src="{{ asset('front_assets/img/news/n3.jpg') }}"
+                        <img class="card-top-img" style="height: 600px;" src="{{ asset('front_assets/img/Branding Banner.png') }}"
                             alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title text-center">
@@ -174,22 +174,9 @@
                         <h1>Why choose us</h1>
 
                     </div>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, nostrum eligendi fuga incidunt
-                        molestiae voluptatum et unde enim, cupiditate asperiores eius aliquam expedita ratione dicta
-                        dignissimos beatae culpa, adipisci exercitationem maiores repellat? Accusantium rem vel illo
-                        perspiciatis commodi obcaecati natus eos, dolor quis ex labore incidunt eius hic minima provident,
-                        voluptatibus doloribus culpa. Error repellendus explicabo odio totam? Quia omnis ducimus at quasi
-                        magnam quae suscipit deserunt laudantium dolores id, nam vitae ratione amet facilis incidunt beatae
-                        in eligendi ullam impedit! Beatae, molestias? Quisquam incidunt nesciunt optio expedita praesentium
-                        alias esse corrupti et maxime! Repudiandae optio mollitia, minus ab provident, laborum aut eveniet
-                        quo porro est blanditiis, assumenda reprehenderit sunt officiis neque animi voluptatibus. Tenetur
-                        ducimus debitis dolor eum eos fuga, molestiae, hic, dolorem nesciunt veniam ex nam animi fugit? Vero
-                        esse, obcaecati id voluptate ipsum molestiae mollitia eos ullam provident commodi sunt accusamus
-                        inventore odit? Quia itaque fuga sint, illum quam rerum quaerat, dolore excepturi mollitia velit,
-                        doloremque placeat quidem nesciunt deleniti porro. Debitis, reiciendis deleniti? Expedita quia
-                        recusandae unde? Quae eum culpa qui soluta possimus dolorem! Id, porro modi nemo vel, non laboriosam
-                        nulla hic provident perferendis quas dolorem officiis ab. Accusamus, repellat quidem necessitatibus
-                        quia a rem. </P>
+                    <P> <strong>
+                        At the Work Station, we merge creativity with functionality to craft captivating interior and exterior designs alongside compelling brand communication. With a commitment to innovation, attention to detail, and a collaborative approach, we ensure your vision is realized to perfection. Experience our holistic solutions, transparent communication, and dedication to customer satisfaction. Let's elevate your space and brand together.
+                        </strong> </P>
                 </div>
             </div>
         </div>
