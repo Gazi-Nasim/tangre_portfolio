@@ -31,7 +31,7 @@
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo" >
                 <a href="{{asset('front_assets/index.html')}}">
-                    <img style="height: 80px ;width: 100px " src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
+                    <img style="height: 60px ;width: 170px " src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
                 </a>
             </div>
             <nav id="nav-menu-container">
