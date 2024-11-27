@@ -1,28 +1,14 @@
 @extends('front_layout.app')
 @section('content')
 <!--######## start banner Area ########-->
-<section class="banner-area relative" id="home">
-	<div class="container">
-		<div class="row d-flex align-items-center justify-content-center">
-			<div class="about-content col-lg-12">
-				<h1 class="text-white text-uppercase">
-					Contact Us
-				</h1>
-				<p class="text-white link-nav"><a href="index.html">Home </a>
-					<span class="lnr lnr-arrow-right"></span> <a href="contact.html">
-						Contact Us</a>
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-<!--######## End banner Area ########-->
 
 <!--######## Start contact-page Area ########-->
 <section class="contact-page-area section-gap">
 	<div class="container">
 		<div class="row contact-wrap">
-			<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
+			<div class="map-wrap " style="width:100%; height: 445px;" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3729613.5816204934!2d89.57086944283782!3d23.278831219933053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1732647632943!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 			<div class="col-lg-3 d-flex flex-column address-wrap">
 				<div class="single-contact-address d-flex flex-row">
 					<div class="icon">

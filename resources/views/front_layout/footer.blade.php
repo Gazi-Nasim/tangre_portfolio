@@ -7,7 +7,7 @@
             margin: auto;
         }
     </style>
-    <div class="container" style="background-color: #cde490; height: 400px; padding:30px; ">
+    <div class="container" style="background-color: #cde490; height: 400px; padding:30px; margin-top: 50px ">
         <div class="col-12" style="height: 50%"></div>
         <div class="justify-content-center">
             <div class="row">

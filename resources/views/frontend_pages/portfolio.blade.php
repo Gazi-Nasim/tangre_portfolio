@@ -1,21 +1,237 @@
 @extends('front_layout.app')
 @section('content')
 
-<!--######## start banner Area ########-->
-<section class="banner-area relative" id="home">
-	<div class="container">
-		<div class="row d-flex align-items-center justify-content-center">
-			<div class="about-content col-lg-12">
-				<h1 class="text-white text-uppercase">
-					Portfolio
-				</h1>
-				<p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="portfolio.html">
-						Portfolio</a></p>
-			</div>
-		</div>
-	</div>
+<!--######## Start Latest News Area ########-->
+<section class="latest-news-area section-gap">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="main-title text-center">
+                    <h1>PORTFOLIO</h1>
+                    <h4>Inspired by curiosity</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="main-title text-center col-12" style="margin-bottom: 15px">
+                {{-- <h4 class="card-title">
+                    <a href="#" style="text-decoration: none; color: black">
+                        Interiors
+                    </a>
+                </h4> --}}
+                <h2>Interiors</h2>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-01.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Ferdous</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-02.png') }}" alt="Card image cap"
+                        alt="Card image cap">
+                    <h4 class="card-title text-center">Afzal</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-03.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Sumon</h4>
+
+                    {{-- <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">
+                            Life Advice Looking At Window
+                        </a>
+                    </h4>
+                    <p class="card-text">It is a good idea to think of your PC as an office. It stores files, programs, pictures. This
+                        can be compared to an actual.</p>
+                </div> --}}
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-05.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Morshed</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-06.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Akram </h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-07.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Hemal</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-08.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Aminul </h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-09.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Musfik </h4>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="main-title text-center col-12 " style="margin-bottom: 15px">
+                <h2>Exteriors</h2>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-01.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Ferdous</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-02.png') }}" alt="Card image cap"
+                        alt="Card image cap">
+                    <h4 class="card-title text-center">Afzal</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-03.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Sumon</h4>
+
+                    {{-- <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">
+                            Life Advice Looking At Window
+                        </a>
+                    </h4>
+                    <p class="card-text">It is a good idea to think of your PC as an office. It stores files, programs, pictures. This
+                        can be compared to an actual.</p>
+                </div> --}}
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-05.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Morshed</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-06.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Akram </h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-07.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Hemal</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-08.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Aminul </h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-09.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Musfik </h4>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="main-title text-center col-12" style="margin-bottom: 15px">
+                <h2>Branding</h2>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-01.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Ferdous</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-02.png') }}" alt="Card image cap"
+                        alt="Card image cap">
+                    <h4 class="card-title text-center">Afzal</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-03.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Sumon</h4>
+
+                    {{-- <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">
+                            Life Advice Looking At Window
+                        </a>
+                    </h4>
+                    <p class="card-text">It is a good idea to think of your PC as an office. It stores files, programs, pictures. This
+                        can be compared to an actual.</p>
+                </div> --}}
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-05.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Morshed</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-06.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Akram </h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-07.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Hemal</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-08.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Aminul </h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-news card">
+                    <img class="card-top-img" src="{{ asset('front_assets/img/PP-09.png') }}" alt="Card image cap">
+                    <h4 class="card-title text-center">Musfik </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-<!--######## End banner Area ########-->
+<!--######## End Latest News Area ########-->
+
 
 <!--######## Start Recent Completed Project Area ########-->
 <section class="recent-completed-project section-gap">

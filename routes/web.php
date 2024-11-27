@@ -16,7 +16,7 @@ Route::get('/about', function () { return view('frontend_pages.about');});
 Route::get('/blog-single', function () { return view('frontend_pages.blog-single');});
 Route::get('/blog-home', function () { return view('frontend_pages.blog-home');});
 Route::get('/portfolio-details', function () { return view('frontend_pages.portfolio-details');});
-Route::get('/elements', function () { return view('frontend_pages.elements');});
+Route::get('/interior', function () { return view('frontend_pages.interior');});
 Route::get('/contact', function () { return view('frontend_pages.contact');});
 
 Route::get('/dashboard', function () {

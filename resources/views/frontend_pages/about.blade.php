@@ -1,68 +1,58 @@
 @extends('front_layout.app')
 @section('content')
+    <!--######## start banner Area ########-->
 
-<!--######## start banner Area ########-->
-<section class="banner-area relative" id="home">
-	<div class="container">
-		<div class="row d-flex align-items-center justify-content-center">
-			<div class="about-content col-lg-12">
-				<h1 class="text-white text-uppercase">
-					About Us
-				</h1>
-				<p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="about.html">
-						About Us</a></p>
-			</div>
-		</div>
-	</div>
-</section>
-<!--######## End banner Area ########-->
 
-<!--######## Start Latest News Area ########-->
-<section class="latest-news-area section-gap">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-12">
-				<div class="main-title text-center">
-					<h1>Latest News from all categories</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-news card">
-					<img class="card-top-img" src="img/news/n1.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h4 class="card-title">
-							<a href="#">
-								Addiction Whit Gambling
-							</a>
-						</h4>
-						<p class="card-text">It is a good idea to think of your PC as an office. It stores files, programs, pictures. This
-							can be compared to an actual.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-news card">
-					<img class="card-top-img" src="img/news/n2.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h4 class="card-title">
-							<a href="#">
-								Headset No Longer Wired
-							</a>
-						</h4>
-						<p class="card-text">It is a good idea to think of your PC as an office. It stores files, programs, pictures. This
-							can be compared to an actual.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-news card">
-					<img class="card-top-img" src="img/news/n3.jpg" alt="Card image cap">
-					<div class="card-body">
+    <!--######## Start Latest News Area ########-->
+    <section class="latest-news-area section-gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="main-title text-center">
+                        <h1>ABOUT US</h1>
+                        <h4>No One but Us Can Free Our Mind</h4>
+                        <br>
+                        <br>
+                        <p>Yatra originally started in 2017, and on paper in 2019, our journey of creating
+                            something new in the amalgamation of design, tradition and culture...
+
+                        </p>
+                    </div>
+                    <p style="margin-top: -3%;">Our method Working with us is easy, Really listen to the client's needs,
+                        create them And producing uniquely, and quite frankly, We give a damn about your success. brand
+                        building, With multi-disciplinary creative agency The primary goal of creative offers Strategy and
+                        high caliber design assets To help grow your business-whether It is a start up, a new rebranding A
+                        current brand, or improved Esta lished brands to convince them Visibly good message to their
+                        audience. Using design thinking and logic, We come up with creative strategies-and Execute that
+                        strategy - efficiently And clever methods without the usual Design agency fluff or price tag.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="main-title text-center col-12">
+                    <h1>Team</h1>
+                    <h4>Together, Everyone, Achieves, More</h4>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-news card">
+                        <img class="card-top-img" src="{{ asset('front_assets/img/PP-01.png') }}" alt="Card image cap">
+                        <h4 class="card-title text-center">Ferdous</h4>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-news card">
+                        <img class="card-top-img" src="{{ asset('front_assets/img/PP-02.png') }}" alt="Card image cap"
+                            alt="Card image cap">
+                        <h4 class="card-title text-center">Afzal</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-news card">
+                        <img class="card-top-img" src="{{ asset('front_assets/img/PP-03.png') }}" alt="Card image cap">
+                        <h4 class="card-title text-center">Sumon</h4>
+
+                        {{-- <div class="card-body">
 						<h4 class="card-title">
 							<a href="#">
 								Life Advice Looking At Window
@@ -70,161 +60,117 @@
 						</h4>
 						<p class="card-text">It is a good idea to think of your PC as an office. It stores files, programs, pictures. This
 							can be compared to an actual.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--######## End Latest News Area ########-->
+					</div> --}}
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-news card">
+                        <img class="card-top-img" src="{{ asset('front_assets/img/PP-05.png') }}" alt="Card image cap">
+                        <h4 class="card-title text-center">Morshed</h4>
 
-<!--######## Start Our Offer Area ########-->
-<section class="our-offer-area section-gap">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 mb-30">
-						<div class="single-circle">
-							<div class="single-item">
-								<div class="progressBar progressBar--animateText" data-progress="75">
-									<svg class="progressBar-contentCircle" viewBox="0 0 200 200">
-										<circle transform="rotate(-90, 100, 100)" class="progressBar-background" cx="100" cy="100" r="95" />
-										<circle transform="rotate(-90, 100, 100)" class="progressBar-circle" cx="100" cy="100" r="95" />
-									</svg>
-									<span class="progressBar-percentage progressBar-percentage-count">1.5K</span>
-								</div>
-							</div>
-							<h4>Happy Clients</h4>
-						</div>
-					</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-news card">
+                        <img class="card-top-img" src="{{ asset('front_assets/img/PP-06.png') }}" alt="Card image cap">
+                        <h4 class="card-title text-center">Akram </h4>
 
-					<div class="col-lg-6 col-md-6 mb-30">
-						<div class="single-circle">
-							<div class="single-item">
-								<div class="progressBar progressBar--animateText" data-progress="75">
-									<svg class="progressBar-contentCircle" viewBox="0 0 200 200">
-										<circle transform="rotate(-90, 100, 100)" class="progressBar-background" cx="100" cy="100" r="95" />
-										<circle transform="rotate(-90, 100, 100)" class="progressBar-circle" cx="100" cy="100" r="95" />
-									</svg>
-									<span class="progressBar-percentage progressBar-percentage-count">10</span>
-								</div>
-							</div>
-							<h4>Years of Experience</h4>
-						</div>
-					</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-news card">
+                        <img class="card-top-img" src="{{ asset('front_assets/img/PP-07.png') }}" alt="Card image cap">
+                        <h4 class="card-title text-center">Hemal</h4>
 
-					<div class="col-lg-6 col-md-6 mb-30">
-						<div class="single-circle">
-							<div class="single-item">
-								<div class="progressBar progressBar--animateText" data-progress="75">
-									<svg class="progressBar-contentCircle" viewBox="0 0 200 200">
-										<circle transform="rotate(-90, 100, 100)" class="progressBar-background" cx="100" cy="100" r="95" />
-										<circle transform="rotate(-90, 100, 100)" class="progressBar-circle" cx="100" cy="100" r="95" />
-									</svg>
-									<span class="progressBar-percentage progressBar-percentage-count">250</span>
-								</div>
-							</div>
-							<h4>Professionals</h4>
-						</div>
-					</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-news card">
+                        <img class="card-top-img" src="{{ asset('front_assets/img/PP-08.png') }}" alt="Card image cap">
+                        <h4 class="card-title text-center">Aminul </h4>
 
-					<div class="col-lg-6 col-md-6 mb-30">
-						<div class="single-circle">
-							<div class="single-item">
-								<div class="progressBar progressBar--animateText" data-progress="75">
-									<svg class="progressBar-contentCircle" viewBox="0 0 200 200">
-										<circle transform="rotate(-90, 100, 100)" class="progressBar-background" cx="100" cy="100" r="95" />
-										<circle transform="rotate(-90, 100, 100)" class="progressBar-circle" cx="100" cy="100" r="95" />
-									</svg>
-									<span class="progressBar-percentage progressBar-percentage-count">369</span>
-								</div>
-							</div>
-							<h4>On Going Job</h4>
-						</div>
-					</div>
-				</div>
-			</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-news card">
+                        <img class="card-top-img" src="{{ asset('front_assets/img/PP-09.png') }}" alt="Card image cap">
+                        <h4 class="card-title text-center">Musfik </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--######## End Latest News Area ########-->
 
-			<div class="offset-lg-1 col-lg-5">
-				<div class="row justify-content-center">
-					<div class="col-lg-12">
-						<div class="main-title text-left">
-							<h1>We can be your digital Problems Solution Partner</h1>
-							<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially
-								in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
-							</p>
-							<a href="#" class="primary-btn offer-btn mr-10">What we Offer</a>
-							<a href="#" class="primary-btn quote-btn">Get a free Quote</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--######## End Our Offer Area ########-->
+    <!--######## Start contact-page Area ########-->
+    {{-- <section class="contact-page-area section-gap">
+        <div class="container">
+            <div class="main-title text-center">
+                <h1>Contact US</h1>
+            </div>
+            <div class="row contact-wrap">
 
-<!--######## Start testimonial Area ########-->
-<section class="about-testimonial-area section-gap">
-	<div class="container">
-		<div class="row">
-			<div class="active-testimonial-carusel">
-				<div class="single-testimonial item d-flex flex-row">
-					<div class="thumb">
-						<img class="img-fluid" src="img/elements/user1.png" alt="">
-					</div>
-					<div class="desc">
-						<p>
-							Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector,
-							hardware.
-						</p>
-						<h4 mt-30>Mark Alviro Wiens</h4>
-						<p class="mb-0">CEO at Google</p>
-					</div>
-				</div>
-				<div class="single-testimonial item d-flex flex-row">
-					<div class="thumb">
-						<img class="img-fluid" src="img/elements/user2.png" alt="">
-					</div>
-					<div class="desc">
-						<p>
-							Hypnosis quit smoking methods maintain caused quite world over the last two decades. There is a lot of argument pertaining
-							to
-						</p>
-						<h4 mt-30>Lina Harrington</h4>
-						<p class="mb-0">CEO at Google</p>
-					</div>
-				</div>
-				<div class="single-testimonial item d-flex flex-row">
-					<div class="thumb">
-						<img class="img-fluid" src="img/elements/user1.png" alt="">
-					</div>
-					<div class="desc">
-						<p>
-							Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector,
-							hardware.
-						</p>
-						<h4 mt-30>Mark Alviro Wiens</h4>
-						<p class="mb-0">CEO at Google</p>
-					</div>
-				</div>
-				<div class="single-testimonial item d-flex flex-row">
-					<div class="thumb">
-						<img class="img-fluid" src="img/elements/user2.png" alt="">
-					</div>
-					<div class="desc">
-						<p>
-							Hypnosis quit smoking methods maintain caused quite world over the last two decades. There is a lot of argument pertaining
-							to
-						</p>
-						<h4 mt-30>Lina Harrington</h4>
-						<p class="mb-0">CEO at Google</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--######## End testimonial Area ########-->
+                <div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
+                <div class="col-lg-3 d-flex flex-column address-wrap">
+                    <div class="single-contact-address d-flex flex-row">
+                        <div class="icon">
+                            <span class="lnr lnr-home"></span>
+                        </div>
+                        <div class="contact-details">
+                            <h5>Los Angeles, USA</h5>
+                            <p>
+                                56/8, Rocky beach road
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-contact-address d-flex flex-row">
+                        <div class="icon">
+                            <span class="lnr lnr-phone-handset"></span>
+                        </div>
+                        <div class="contact-details">
+                            <h5>00 (440) 9865 562</h5>
+                            <p>Mon to Fri 9am to 6 pm</p>
+                        </div>
+                    </div>
+                    <div class="single-contact-address d-flex flex-row">
+                        <div class="icon">
+                            <span class="lnr lnr-envelope"></span>
+                        </div>
+                        <div class="contact-details">
+                            <h5>support@colorlib.com</h5>
+                            <p>Send us your query</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control"
+                                    required="" type="text">
+
+                                <input name="email" placeholder="Enter email address"
+                                    pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
+                                    class="common-input mb-20 form-control" required="" type="email">
+                                <input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control"
+                                    required="" type="text">
+                            </div>
+                            <div class="col-lg-6">
+                                <textarea class="common-textarea form-control" name="message" placeholder="Enter Messege"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>
+                            </div>
+                            <div class="col-lg-12 mt-30">
+                                <div class="alert-msg" style="text-align: left;"></div>
+                                <button class="primary-btn primary" style="float: right;">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <!--######## End contact-page Area ########-->
 @endsection
