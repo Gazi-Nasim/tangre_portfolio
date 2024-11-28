@@ -1,18 +1,18 @@
 <header id="header" id="home">
-    {{-- <div class="header-top">
+    <div class="header-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-6 col-4 no-padding">
                     <div class="header-top-left">
                         <a href="">
                             <i class="fa fa-phone"></i>
-                            012-6532-568-9746
+                            01718542095
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/share/1EudBRVVXr/?mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                         <li><a href="#"><i class="fa fa-behance"></i></a></li>
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    <hr> --}}
+    <hr>
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo" >
@@ -38,7 +38,7 @@
                 <ul class="nav-menu">
                     {{-- <li class="menu-active"><a href="{{url('/home')}}">home</a></li> --}}
                     <li><a href="{{url('about')}}">about us</a></li>
-                    <li><a href="{{url('portfolio')}}">Serivices</a></li>
+                    <li><a href="{{url('services')}}">Serivices</a></li>
                     <li><a href="{{url('portfolio')}}">portfolio</a></li>
                     {{-- <li class="menu-has-children"><a href="#">blog</a>
                         <ul>

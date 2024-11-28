@@ -65,7 +65,7 @@
                             alt="Card image cap">
                         <div class="card-body ">
                             <h4 class="card-title text-center">
-                                <a href="#">
+                                <a href="{{url('interior')}}">
                                     Interior Design
                                 </a>
                             </h4>
@@ -78,7 +78,7 @@
                             src="{{ asset('front_assets/img/Wooden work.png') }}" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title text-center">
-                                <a href="#">
+                                <a href="{{url('exterior')}}">
                                     Exterior Design
                                 </a>
                             </h4>
@@ -91,7 +91,7 @@
                             src="{{ asset('front_assets/img/Branding Banner.png') }}" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title text-center">
-                                <a href="#">
+                                <a href="{{url('branding')}}">
                                     Brianding
                                 </a>
                             </h4>
@@ -120,7 +120,7 @@
                     <div class="single-news card">
                         <div class="card-body">
                             <h4 class="card-title text-center">
-                                <a href="#">
+                                <a href="{{url('interior')}}">
                                     Interior Design
                                     <hr>
                                 </a>

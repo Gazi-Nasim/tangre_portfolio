@@ -1,10 +1,10 @@
 <?php
 
-use App\Http\Controllers\BrandingController;
-use App\Http\Controllers\EXteriorController;
-use App\Http\Controllers\InteriorController;
+use App\Http\Controllers\Backend\UserController;
+use App\Http\Controllers\Backend\BrandingController;
+use App\Http\Controllers\Backend\EXteriorController;
+use App\Http\Controllers\Backend\InteriorController;
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -16,12 +16,15 @@ Route::get('/home', function () {
 });
 Route::get('/home', function () { return view('frontend_pages.home');});
 Route::get('/portfolio', function () { return view('frontend_pages.portfolio');});
+Route::get('/services', function () { return view('frontend_pages.portfolio');});
 Route::get('/about', function () { return view('frontend_pages.about');});
 Route::get('/blog-single', function () { return view('frontend_pages.blog-single');});
 Route::get('/blog-home', function () { return view('frontend_pages.blog-home');});
 Route::get('/portfolio-details', function () { return view('frontend_pages.portfolio-details');});
-Route::get('/interior', function () { return view('frontend_pages.interior');});
 Route::get('/contact', function () { return view('frontend_pages.contact');});
+Route::get('/interior', function () { return view('frontend_pages.interior');});
+Route::get('/exterior', function () { return view('frontend_pages.exterior');});
+Route::get('/branding', function () { return view('frontend_pages.branding');});
 
 Route::get('/dashboard', function () {
     return view('backend.dashboard');
