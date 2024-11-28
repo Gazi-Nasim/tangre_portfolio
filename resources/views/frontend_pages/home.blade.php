@@ -19,7 +19,7 @@
     <!--######## start banner Area ########-->
     <section class=" relative" id="home">
         <div class="container">
-            <img src="{{ asset('front_assets/img/banner.png') }}" class="img-fluid" alt="Img">
+            <img src="{{ asset('front_assets/img/home_page_cover_photo.jpg') }}" class="img-fluid" alt="Img">
             {{-- <div class="row fullscreen d-flex align-items-center"> --}}
             {{-- <div class="banner-content col-lg-9 col-md-12">
                     <h1>

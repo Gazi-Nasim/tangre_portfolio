@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-14.jpg.jpg') }}" alt="Card image cap">
+                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-14.jpg') }}" alt="Card image cap">
 
                     </div>
                 </div>

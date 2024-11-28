@@ -28,16 +28,17 @@
                 <!-- Right Section -->
                 <div class="col-5 text-end footer-content" style="text-align: right ; color: #3c8d066d">
                     <div class="social-icons">
-                        <a href="#" aria-label="Facebook">
+                        <a href="https://www.facebook.com/share/1EudBRVVXr/?mibextid=LQQJ4d" aria-label="Facebook">
                             <i style="color: #3c8d066d;" class="fa fa-facebook-square fa-2x"></i>
                         </a>
                         <a href="#" aria-label="Instagram">
                             <i style="color: #3c8d066d;" class="fa fa-instagram fa-2x"></i>
                         </a>
                     </div>
-                    <p style="font-weight: 900;">House #07, Road 20, Wonderland City, Place</p>
-                    <p style="font-weight: 900;">Call: +880 WhatsApp: 01756 123 456</p>
-                    <p style="font-weight: 900;">Email: builder@example.com</p>
+                    <p style="font-weight: 900;">House: 427, Road: 30, Mohakhali DOHS, Dhaka.</p>
+                    <p style="font-weight: 900;">Call us or WhatsApp at: 01718 542095, 01914 66 33 11</p>
+                    <p style="font-weight: 900;">ferdous.tws@gmail.com</p>
+                    <p style="font-weight: 900;">Copyright © 2025, the work Station</p>
                 </div>
 
             </div>

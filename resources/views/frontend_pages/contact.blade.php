@@ -15,9 +15,9 @@
 						<span class="lnr lnr-home"></span>
 					</div>
 					<div class="contact-details">
-						<h5>Los Angeles, USA</h5>
+						<h5>Mohakhali DOHS, Dhaka-1212.</h5>
 						<p>
-							56/8, Rocky beach road
+							House: 4th Floor, 427, Road: 30, 
 						</p>
 					</div>
 				</div>
@@ -26,7 +26,7 @@
 						<span class="lnr lnr-phone-handset"></span>
 					</div>
 					<div class="contact-details">
-						<h5>00 (440) 9865 562</h5>
+						<h5>01718 542 0956</h5>
 						<p>Mon to Fri 9am to 6 pm</p>
 					</div>
 				</div>
@@ -35,7 +35,7 @@
 						<span class="lnr lnr-envelope"></span>
 					</div>
 					<div class="contact-details">
-						<h5>support@colorlib.com</h5>
+						<h5>ferdous.tws@gmail.com</h5>
 						<p>Send us your query</p>
 					</div>
 				</div>

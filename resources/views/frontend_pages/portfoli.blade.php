@@ -7,7 +7,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="main-title text-center">
-                    @if(route->is('portfoli'))
+                    @if(Route::currentRouteName() =='portfoli')
                     <h1>PORTFOLIO</h1>
                     @endif
                     @if(route->is('services'))
