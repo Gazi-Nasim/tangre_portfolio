@@ -28,8 +28,8 @@ $usr = Auth::guard('web')->user();
                 <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 
-                @if ($usr->can('dashboard.view'))
-                <li class="nav-item {{ Route::is('general.index') || Route::is('general.create') || Route::is('general.edit')  ? 'menu-open' : null }} ">
+
+                {{-- <li class="nav-item {{ Route::is('general.index') || Route::is('general.create') || Route::is('general.edit')  ? 'menu-open' : null }} ">
                     <a href="#" class="nav-link {{ Route::is('general.index') || Route::is('general.create') || Route::is('general.edit')  ? 'active' : null }} ">
                         <!-- <i class="nav-icon fas fa-solid fa-user"></i> -->
                         <i class="nav-icon fa fa-info-circle" aria-hidden="true"></i>
@@ -45,14 +45,14 @@ $usr = Auth::guard('web')->user();
                                 <p>Add</p>
                             </a>
                         </li>
-                        {{--<li class="nav-item ">
+                        <li class="nav-item ">
                             <a href="{{route('general.index')}}" class="nav-link {{ Route::is('general.edit') ? 'active' : 'null' }} ">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Info List</p>
                         </a>
-                </li>--}}
-            </ul>
-            </li>
+                        </li>
+                    </ul>
+                </li> --}}
             <li class="nav-item {{ Route::is('user.index') || Route::is('user.create') || Route::is('user.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('user.index') || Route::is('user.create') || Route::is('user.edit')  ? 'active' : null }} ">
                     <!-- <i class="nav-icon fas fa-solid fa-user"></i> -->
@@ -77,56 +77,77 @@ $usr = Auth::guard('web')->user();
                     </li>
                 </ul>
             </li>
-            @endif
-            @if ($usr->can('role.create') || $usr->can('role.view') || $usr->can('role.edit') || $usr->can('role.delete'))
-            <li class="nav-item {{ Route::is('role.index') || Route::is('role.create') || Route::is('role.edit')  ? 'menu-open' : null }} ">
-            <a href="#" class="nav-link {{ Route::is('role.index') || Route::is('role.create') || Route::is('role.edit')  ? 'active' : null }}">
-                <i class="nav-icon fas fa-users mr-2"></i>
-                <p>
-                    Roles & Permissions
-                    <i class="fas fa-angle-left right"></i>
-                </p>
-            </a>
-            <ul class="nav nav-treeview">
-                @if ($usr->can('role.create'))
-                <li class="nav-item">
-                    <a href="{{route('role.create')}}" class="nav-link {{ Route::is('role.create') ? 'active' : 'null' }}">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Add</p>
-                    </a>
-                </li>
-                @endif
-                @if ($usr->can('role.view'))
-                <li class="nav-item">
-                    <a href="{{route('role.index')}}" class="nav-link {{ Route::is('role.index') || Route::is('role.edit') ? 'active' : null }} ">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>All Roles</p>
-                    </a>
-                </li>
-                @endif
-            </ul>
-            </li>
-            @endif
-            <li class="nav-item {{ Route::is('branch.index') || Route::is('branch.create') || Route::is('branch.edit')  ? 'menu-open' : null }} ">
-                <a href="#" class="nav-link {{ Route::is('branch.index') || Route::is('branch.create') || Route::is('branch.edit')  ? 'active' : null }} ">
+
+            <li class="nav-item {{ Route::is('interior.index') || Route::is('interior.create') || Route::is('interior.edit')  ? 'menu-open' : null }} ">
+                <a href="#" class="nav-link {{ Route::is('interior.index') || Route::is('interior.create') || Route::is('interior.edit')  ? 'active' : null }} ">
                     <!-- <i class="nav-icon fas fa-solid fa-user"></i> -->
                     <i class="nav-icon fas fa-solid fa-code-branch"></i>
                     <p>
-                        Resort
+                        Interior
                         <i class="fas fa-angle-left right"></i>
                     </p>
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="{{route('branch.create')}}" class="nav-link {{ Route::is('branch.create') ? 'active' : 'null' }} ">
+                        <a href="{{route('interior.create')}}" class="nav-link {{ Route::is('interior.create') ? 'active' : 'null' }} ">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Add</p>
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a href="{{route('branch.index')}}" class="nav-link {{ Route::is('branch.index') ? 'active' : 'null' }} ">
+                        <a href="{{route('interior.index')}}" class="nav-link {{ Route::is('interior.index') ? 'active' : 'null' }} ">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Resort List</p>
+                            <p>List</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item {{ Route::is('exterior.index') || Route::is('exterior.create') || Route::is('exterior.edit')  ? 'menu-open' : null }} ">
+                <a href="#" class="nav-link {{ Route::is('exterior.index') || Route::is('exterior.create') || Route::is('exterior.edit')  ? 'active' : null }} ">
+                    <!-- <i class="nav-icon fas fa-solid fa-user"></i> -->
+                    <i class="nav-icon fas fa-solid fa-code-branch"></i>
+                    <p>
+                        Exterior
+                        <i class="fas fa-angle-left right"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="{{route('exterior.create')}}" class="nav-link {{ Route::is('exterior.create') ? 'active' : 'null' }} ">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Add</p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{route('exterior.index')}}" class="nav-link {{ Route::is('exterior.index') ? 'active' : 'null' }} ">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>List</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item {{ Route::is('branding.index') || Route::is('branding.create') || Route::is('branding.edit')  ? 'menu-open' : null }} ">
+                <a href="#" class="nav-link {{ Route::is('branding.index') || Route::is('branding.create') || Route::is('branding.edit')  ? 'active' : null }} ">
+                    <!-- <i class="nav-icon fas fa-solid fa-user"></i> -->
+                    <i class="nav-icon fas fa-solid fa-code-branch"></i>
+                    <p>
+                        Branding
+                        <i class="fas fa-angle-left right"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="{{route('branding.create')}}" class="nav-link {{ Route::is('branding.create') ? 'active' : 'null' }} ">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Add</p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{route('branding.index')}}" class="nav-link {{ Route::is('branding.index') ? 'active' : 'null' }} ">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>List</p>
                         </a>
                     </li>
                 </ul>

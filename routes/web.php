@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\BrandingController;
+use App\Http\Controllers\EXteriorController;
+use App\Http\Controllers\InteriorController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -35,8 +38,16 @@ Route::middleware('auth')->group(function () {
         Route::resource('users', UserController::class)->names('user');
     });
 
-    Route::group(['prefix' => 'roles'], function () {
-        Route::resource('roles', RolesController::class)->names('role');
+    Route::group(['prefix' => 'interior'], function () {
+        Route::resource('interior', InteriorController::class)->names('interior');
+    });
+
+    Route::group(['prefix' => 'exterior'], function () {
+        Route::resource('exterior', EXteriorController::class)->names('exterior');
+    });
+
+    Route::group(['prefix' => 'branding'], function () {
+        Route::resource('branding', BrandingController::class)->names('branding');
     });
 
     Route::group(['prefix' => 'branch'], function () {

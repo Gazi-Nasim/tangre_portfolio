@@ -59,18 +59,7 @@
                   @enderror
                 </div>
 
-                <div class="form-group col-6">
-                  <label for="role">Role</label>
-                  <select name="role" id="role" class="form-control" required>
-                    <option value="">Select</option>
-                    @foreach($roles as $Data)
-                    <option value="{{$Data->name}}" {{ isset($edit) &&($edit->role==$Data->name) ? 'selected' :'null'}}>{{$Data->name}}</option>
-                    @endforeach
-                  </select>
-                  @error('role')
-                  <span style="color: red">{{ $message }}</span>
-                  @enderror
-                </div>
+                
 
                 <div class="form-group col-6">
                   <label for="password">Password</label>

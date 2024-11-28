@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -11,7 +13,10 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+
+        $title = 'All User';
+        $data = User::orderBy('id', 'desc')->get();
+        return view('backend.pages.users.list', compact('data', 'title'));
     }
 
     /**
@@ -19,7 +24,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.pages.users.index');
     }
 
     /**
@@ -27,7 +32,23 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'password' => 'required',
+        ]);
+
+        $exist_user = User::where('email', $request->email)->get();
+        if (count($exist_user) > 0) {
+            if (count($exist_user) > 0 && $request->email == $exist_user[0]['email']) {
+                session()->flash('success', 'E-mail exists choose another !!');
+                return redirect()->route('user.create');
+            }
+        }
+
+        User::create($validatedData);
+        session()->flash('success', 'User Has Been Created !!');
+        return redirect()->route('user.index');
     }
 
     /**
@@ -43,7 +64,8 @@ class UserController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $edit = User::findOrFail($id);
+        return view('backend.pages.users.index', compact('edit'));
     }
 
     /**
@@ -51,7 +73,18 @@ class UserController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $validatedData = $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+        ]);
+
+        if ($request->password != null) {
+            $validatedData['password'] = Hash::make($request->password);
+        }
+        // dd($validatedData);
+        User::find($id)->update($validatedData);
+        session()->flash('success', 'User Has Been Updated !!');
+        return redirect()->route('user.index');
     }
 
     /**
@@ -59,6 +92,8 @@ class UserController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        User::find($id)->delete();
+        session()->flash('success', 'User Has Been Deleted !!');
+        return back();
     }
 }
