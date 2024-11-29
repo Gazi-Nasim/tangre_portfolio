@@ -4556,3 +4556,37 @@ h6 {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* footer section css */
+
+.divider {
+    border-left: 1px solid gray;
+    height: 25%;
+    margin-top: 85px;
+}
+
+
+.social_icons_section {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 1%
+}
+
+.social_icons_section a {
+    margin: 1%;
+    border: 1px solid gray;
+    border-radius: 10%;
+    padding: 6px;
+    height: 40px;
+    width: 40px;
+}
+
+.social_icons_section a i {
+    color: gray
+}
+
+.footer-line {
+    border: 1px solid #3c8d066d;
+    width: 90%;
+}

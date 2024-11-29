@@ -33,14 +33,14 @@
                 <ul class="nav-menu">
                     {{-- <li class="menu-active"><a href="{{url('/home')}}">home</a></li> --}}
                     <li><a href="{{url('about')}}">about us</a></li>
-                    <li><a href="{{url('services')}}">Serivices</a></li>
-                    <li><a href="{{url('portfolio')}}">portfolio</a></li>
-                    {{-- <li class="menu-has-children"><a href="#">blog</a>
+                    <li class="menu-has-children"><a href="{{url('services')}}">Serivices</a>
                         <ul>
-                            <li><a href="{{url('blog-home')}}">Blog Home</a></li>
-                            <li><a href="{{url('blog-single')}}">Blog Single</a></li>
+                            <li><a href="{{url('interior')}}">Interior</a></li>
+                            <li><a href="{{url('exterior')}}">Exterior</a></li>
+                            <li><a href="{{url('branding')}}">Branding</a></li>
                         </ul>
-                    </li> --}}
+                    </li>
+                    <li><a href="{{url('portfolio')}}">portfolio</a></li>
                     {{-- <li class="menu-has-children"><a href="{{url('elements')}}">Portfolio</a>
                         <ul>
                             <li><a href="{{url('portfolio-details')}}">Portfolio Details</a></li>
