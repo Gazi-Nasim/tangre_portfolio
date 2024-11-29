@@ -128,7 +128,8 @@
                                     <hr>
                                 </a>
                             </h4>
-                            <p class="card-text text-justify">We try to capture the play of light and air in your room keeping the
+                            <p class="card-text text-justify">We try to capture the play of light and air in your room
+                                keeping the
                                 necessary aspect of your room.
                                 <br>
                                 To give a good feeling to all who come and we are ready to take responsibility for your day
@@ -146,10 +147,10 @@
                                     <hr>
                                 </a>
                             </h4>
-                            <p class="card-text text-justify" >
+                            <p class="card-text text-justify">
                                 The exterior is a delightful blend of modern conveniences, evoking an inviting ambience and
                                 natural feel.
-<br>
+                                <br>
                                 A mural, a sculpture or a terracotta plaque can create beautiful facades that tell a story.
                                 Landscaping is the finishing touch to your exterior.
                             </p>
@@ -233,8 +234,7 @@
                 <div class="col-12">
 
                     <div class="div" style="border: 2px solid gray;">
-                        <div class="div"
-                            style="padding: 55px;">
+                        <div class="div" style="padding: 55px;">
                             <img class="img-fluid" src="{{ asset('front_assets/img/design_picture_.jpg') }}"
                                 alt="">
 
@@ -244,7 +244,7 @@
                     <div class="card-body">
                         <h4 class="card-title text-center">
                             <a href="{{ url('branding') }}" class="btn" style="color: gray; border: 2px solid gray;">
-                            EXCLUSIVE SHOP
+                                EXCLUSIVE SHOP
                             </a>
                         </h4>
                     </div>
