@@ -1,6 +1,7 @@
 <section class="recent-completed-project section-gap" style="padding-top: 0px;">
-
+    {{-- @if(Route::currentRouteName() =='')
     <h2 class="text-center">Now its your turn to build your dream</h2>
+    @endif --}}
     <hr class="footer-line"> </span>
     <div class="container" style="background-color: #8c908316; height: 400px; padding:30px;">
         <div class="justify-content-center">
@@ -11,7 +12,7 @@
 
                 <div class="col-md-6 footer-content text-right">
                     <h4>INFORMATION</h4>
-                    <p class=""> ABOUT US  SERVICES  PORTFOLIO  CONTUCT US  EXCLUSIVE SHOP</p>
+                    <p class=""> ABOUT US &nbsp; SERVICES &nbsp;  PORTFOLIO &nbsp; CONTUCT US &nbsp; EXCLUSIVE SHOP</p>
                 </div>
             </div>
             <br>
