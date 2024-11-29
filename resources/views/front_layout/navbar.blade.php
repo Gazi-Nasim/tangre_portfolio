@@ -13,14 +13,9 @@
                 <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
                     <ul>
                         <li><a href="https://www.facebook.com/share/1EudBRVVXr/?mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="#">Get free Quote</a>
-                        </li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -30,8 +25,8 @@
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo" >
-                <a href="{{asset('front_assets/index.html')}}">
-                    <img style="height: 60px ;width: 170px " src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
+                <a href="{{url('home')}}">
+                    <img style="height: 60px ;width: 100px " src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
                 </a>
             </div>
             <nav id="nav-menu-container">
