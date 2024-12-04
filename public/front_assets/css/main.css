@@ -4570,7 +4570,7 @@ h6 {
     display: flex;
     justify-content: end;
     align-items: center;
-    margin: 1%
+    margin: 1%;
 }
 
 .social_icons_section a {
@@ -4583,10 +4583,10 @@ h6 {
 }
 
 .social_icons_section a i {
-    color: gray
+    color: gray;
 }
 
 .footer-line {
     border: 1px solid #3c8d066d;
-    width: 90%;
+    width: 84%;
 }

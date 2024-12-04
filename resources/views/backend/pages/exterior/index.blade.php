@@ -8,7 +8,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>Add Interior Information </h1>
+                        <h1>Add Exterior Information </h1>
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
@@ -36,19 +36,19 @@
                         <div class="card-body">
                             @include('backend.layouts.messages')
                             @if (isset($edit))
-                                <form action="{{ route('interior.update', $edit->id) }}" method="post" class="row"
+                                <form action="{{ route('exterior.update', $edit->id) }}" method="post" class="row"
                                     enctype="multipart/form-data">
                                     @method('PUT')
                                     @csrf
                                 @else
-                                    <form action="{{ route('interior.store') }}" method="post" class="row"
+                                    <form action="{{ route('exterior.store') }}" method="post" class="row"
                                         enctype="multipart/form-data">
                                         @csrf
                             @endif
 
 
                             <div class="form-group col-6">
-                                <label for="photo">Interior Photo</label>
+                                <label for="photo">Exterior Photo</label>
                                 <div class="input-group">
                                     <div class="custom-file">
                                         <input type="file" {{ !isset($edit) ? 'require' : '' }}

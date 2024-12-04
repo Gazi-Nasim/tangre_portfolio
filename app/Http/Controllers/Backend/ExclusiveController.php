@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
-use App\Models\Branding;
+use App\Models\Exclusive;
 use Illuminate\Http\Request;
 
-class BrandingController extends Controller
+class ExclusiveController extends Controller
 {
 
 
@@ -17,8 +17,8 @@ class BrandingController extends Controller
     public function index()
     {
 
-        $data = Branding::get();
-        return view('backend.pages.branding.list', compact('data'));
+        $data = Exclusive::get();
+        return view('backend.pages.exclusive.list', compact('data'));
     }
 
     /**
@@ -26,7 +26,7 @@ class BrandingController extends Controller
      */
     public function create()
     {
-        return view('backend.pages.branding.index');
+        return view('backend.pages.exclusive.index');
     }
 
     /**
@@ -48,9 +48,9 @@ class BrandingController extends Controller
         $request->photo->move(public_path('uploads/pictures/'), $photo);
         $validatedData['photo'] = $photo;
 
-        Branding::create($validatedData);
-        session()->flash('success', 'Branding Information Has Been Created !!');
-        return redirect()->route('branding.index');
+        Exclusive::create($validatedData);
+        session()->flash('success', 'Exclusive Information Has Been Created !!');
+        return redirect()->route('exclusive.index');
     }
 
     /**
@@ -66,8 +66,8 @@ class BrandingController extends Controller
      */
     public function edit(string $id)
     {
-        $edit = Branding::findOrFail($id);
-        return view('backend.pages.branding.index', compact('edit'));
+        $edit = Exclusive::findOrFail($id);
+        return view('backend.pages.exclusive.index', compact('edit'));
     }
 
     /**
@@ -87,9 +87,9 @@ class BrandingController extends Controller
             $validatedData['photo'] = $photo;
         }
 
-        Branding::find($id)->update($validatedData);
-        session()->flash('success', 'Branding Information Has Been Updated !!');
-        return redirect()->route('branding.index');
+        Exclusive::find($id)->update($validatedData);
+        session()->flash('success', 'Exclusive Information Has Been Updated !!');
+        return redirect()->route('exclusive.index');
     }
 
     /**
@@ -97,9 +97,8 @@ class BrandingController extends Controller
      */
     public function destroy(string $id)
     {
-        Branding::find($id)->delete();
-        session()->flash('success', 'Branding Has Been Deleted !!');
+        Exclusive::find($id)->delete();
+        session()->flash('success', 'Exclusive Has Been Deleted !!');
         return back();
     }
 }
-

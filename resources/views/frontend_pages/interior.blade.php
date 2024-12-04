@@ -2,22 +2,25 @@
 
 @section('content')
     <!--######## start banner Area ########-->
-    <section class=" " id="home">
+   
+    <section class=" relative" id="home">
         <div class="container">
             <img src="{{ asset('front_assets/img/interior_cover_photo.jpg') }}" class="img-fluid" alt="Img">
-            <div class="justify-content-center">
-                <div class="col-lg-12">
-                    <div class="main-title text-center">
-                        {{-- <h1>Latest News from all categories</h1> --}}
-                        <p>
-                            The Work Station is a luxury full-service Interior-Exterior &
-                            Design firm. Built on reputation,
-                            service and design acumen, workstation uses its extensive knowledge and
-                            experience to transform your needs into a luxurious Space.
+           
+        </div>
+        <br>
+        <br>
+        <div class="col-lg-12">
+            <div class=" text-center">
+                {{-- <h1>Latest News from all categories</h1> --}}
+                <p style=" font-size:20px;">
+                    Workstation is a full-service interior design agency. Design, planning, sourcing, installation <br>
+                    and styling are included. You can count on us to reduce costly mistakes and save you energy and time <br> during a renovation, construction or decorating project.
 
-                        </p>
-                    </div>
-                </div>
+                    <!--Working with us is easy…, Using design thinking and logic, We come up with creative strategies<br>-->
+                    <!--We really listen to the client's needs, create them And to produce uniquely, and quite frankly,<br> We give you a suggestion about your success.-->
+
+                </p>
             </div>
         </div>
     </section>
@@ -34,154 +37,154 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img" src="{{ asset('front_assets/interior/Template -21.jpg') }}" alt="Card image cap">
-
+                        <h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -22.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -23.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -25.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -26.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -27.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -28.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -29.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -30.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -31.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -32.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -33.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -34.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -35.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;" >
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -36.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -37.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -38.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -39.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -40.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -41.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -42.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -43.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -44.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -45.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img"  src="{{ asset('front_assets/interior/Template -45.jpg') }}" alt="Card image cap">
-
+<h4 class="card-title text-center">Title</h4>
                     </div>
                 </div>
             </div>

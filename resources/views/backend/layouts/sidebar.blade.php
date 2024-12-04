@@ -152,9 +152,33 @@ $usr = Auth::guard('web')->user();
                     </li>
                 </ul>
             </li>
+            <li class="nav-item {{ Route::is('exclusive.index') || Route::is('exclusive.create') || Route::is('exclusive.edit')  ? 'menu-open' : null }} ">
+                <a href="#" class="nav-link {{ Route::is('exclusive.index') || Route::is('exclusive.create') || Route::is('exclusive.edit')  ? 'active' : null }} ">
+                    <!-- <i class="nav-icon fas fa-solid fa-user"></i> -->
+                    <i class="nav-icon fas fa-solid fa-code-branch"></i>
+                    <p>
+                        Exclusive
+                        <i class="fas fa-angle-left right"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="{{route('exclusive.create')}}" class="nav-link {{ Route::is('exclusive.create') ? 'active' : 'null' }} ">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Add</p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{route('exclusive.index')}}" class="nav-link {{ Route::is('exclusive.index') ? 'active' : 'null' }} ">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>List</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
 
-            <li class="nav-item {{ Route::is('branch_message.index') || Route::is('branch_message.create') || Route::is('branch_message.edit')  ? 'menu-open' : null }} ">
-                <a href="#" class="nav-link {{ Route::is('branch_message.index') || Route::is('branch_message.create') || Route::is('branch_message.edit')  ? 'active' : null }} ">
+            <li class="nav-item {{ Route::is('message.index') || Route::is('message.create') || Route::is('message.edit')  ? 'menu-open' : null }} ">
+                <a href="#" class="nav-link {{ Route::is('message.index') || Route::is('message.create') || Route::is('message.edit')  ? 'active' : null }} ">
                     <!-- <i class="nav-icon far fa-regular fa-message"></i> -->
                     <i class="nav-icon fas fa-regular fa-envelope"></i>
                     <p>
@@ -164,13 +188,13 @@ $usr = Auth::guard('web')->user();
                 </a>
                 <ul class="nav nav-treeview">
                     {{--<li class="nav-item">
-                        <a href="{{route('branch_message.create')}}" class="nav-link {{ Route::is('branch_message.create') ? 'active' : 'null' }} ">
+                        <a href="{{route('message.create')}}" class="nav-link {{ Route::is('message.create') ? 'active' : 'null' }} ">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Add</p>
                     </a>
             </li>--}}
             <li class="nav-item ">
-                <a href="{{route('branch_message.index')}}" class="nav-link {{ Route::is('branch_message.index') ? 'active' : 'null' }} ">
+                <a href="{{route('message.index')}}" class="nav-link {{ Route::is('message.index') ? 'active' : 'null' }} ">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Message List</p>
                 </a>
@@ -178,7 +202,7 @@ $usr = Auth::guard('web')->user();
             </ul>
             </li>
 
-            <li class="nav-item {{ Route::is('branchslider.index') || Route::is('branchslider.create') || Route::is('branchslider.edit')  ? 'menu-open' : null }} ">
+            {{-- <li class="nav-item {{ Route::is('branchslider.index') || Route::is('branchslider.create') || Route::is('branchslider.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('branchslider.index') || Route::is('branchslider.create') || Route::is('branchslider.edit')  ? 'active' : null }} ">
                     <i class="nav-icon fa fa-solid fa-sliders">S</i>
                     <!-- <i class="nav-icon fas fa-users mr-2"></i> -->
@@ -201,9 +225,9 @@ $usr = Auth::guard('web')->user();
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="nav-item {{ Route::is('facility.index') || Route::is('facility.create') || Route::is('facility.edit')  ? 'menu-open' : null }} ">
+            {{-- <li class="nav-item {{ Route::is('facility.index') || Route::is('facility.create') || Route::is('facility.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('facility.index') || Route::is('facility.create') || Route::is('facility.edit')  ? 'active' : null }} ">
                     <i class="nav-icon fas fa-solid fa-house-medical">F</i>
                     <p>
@@ -225,9 +249,9 @@ $usr = Auth::guard('web')->user();
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="nav-item {{ Route::is('main_address.index') || Route::is('main_address.create') || Route::is('main_address.edit')  ? 'menu-open' : null }} ">
+            {{-- <li class="nav-item {{ Route::is('main_address.index') || Route::is('main_address.create') || Route::is('main_address.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('main_address.index') || Route::is('main_address.create') || Route::is('main_address.edit')  ? 'active' : null }} ">
                     <i class="nav-icon fas fa-regular fa-address-book"></i>
                     <p>
@@ -249,9 +273,9 @@ $usr = Auth::guard('web')->user();
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="nav-item {{ Route::is('main_slider.index') || Route::is('main_slider.create') || Route::is('main_slider.edit')  ? 'menu-open' : null }} ">
+            {{-- <li class="nav-item {{ Route::is('main_slider.index') || Route::is('main_slider.create') || Route::is('main_slider.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('main_slider.index') || Route::is('main_slider.create') || Route::is('main_slider.edit')  ? 'active' : null }} ">
                     <i class="nav-icon fa fa-solid fa-sliders">S</i>
                     <p>
@@ -273,9 +297,9 @@ $usr = Auth::guard('web')->user();
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="nav-item {{ Route::is('offer.index') || Route::is('offer.create') || Route::is('offer.edit')  ? 'menu-open' : null }} ">
+            {{-- <li class="nav-item {{ Route::is('offer.index') || Route::is('offer.create') || Route::is('offer.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('offer.index') || Route::is('offer.create') || Route::is('offer.edit')  ? 'active' : null }} ">
                     <i class="nav-icon fas fa-regular fa-envelope"></i>
                     <p>
@@ -297,9 +321,9 @@ $usr = Auth::guard('web')->user();
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="nav-item {{ Route::is('room.index') || Route::is('room.create') || Route::is('room.edit')  ? 'menu-open' : null }} ">
+            {{-- <li class="nav-item {{ Route::is('room.index') || Route::is('room.create') || Route::is('room.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('room.index') || Route::is('room.create') || Route::is('room.edit')  ? 'active' : null }} ">
                     <i class="nav-icon fas fa-solid fa-person-booth"></i>
                     <p>
@@ -321,7 +345,7 @@ $usr = Auth::guard('web')->user();
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
             {{--<li class="nav-item {{ Route::is('room_photo.index') || Route::is('room_photo.create') || Route::is('room_photo.edit')  ? 'menu-open' : null }} ">
             <a href="#" class="nav-link {{ Route::is('room_photo.index') || Route::is('room_photo.create') || Route::is('room_photo.edit')  ? 'active' : null }} ">

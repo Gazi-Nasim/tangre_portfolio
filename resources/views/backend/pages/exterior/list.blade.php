@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1>Interior List </h1>
+          <h1>Exterior List </h1>
         </div>
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
@@ -51,9 +51,9 @@
                     </td>
 
                     <td>
-                      <a href="{{ route('interior.edit', $tData->id) }}" style='float: left;' class="btn btn-primary"><i class="fas fa-pen-square"></i></a>
+                      <a href="{{ route('exterior.edit', $tData->id) }}" style='float: left;' class="btn btn-primary"><i class="fas fa-pen-square"></i></a>
                       @if(Auth::guard('web')->user()->name != $tData->name)
-                      <form action="{{ route('interior.destroy', $tData->id) }}" style='float: left;' class="left" method="post">
+                      <form action="{{ route('exterior.destroy', $tData->id) }}" style='float: left;' class="left" method="post">
                         @method('Delete')
                         @csrf
                         <button class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')"><i class="fas fa-trash-alt"></i></button>

@@ -211,8 +211,8 @@
                 <div class="col-12">
                     <div class="main-title text-center">
                         <h3>Here is our working process for your information</h3>
-                        <img class="img-fluid" style="margin-top: -40px;"
-                            src="{{ asset('front_assets/img/progress_bar.png') }}" alt="working process image">
+                        <img class="img-fluid" style="margin-top: 15px;"
+                            src="{{ asset('front_assets/img/working_process.jpg') }}" alt="working process image">
                         <div class="labels">
                             <div class="label">Meet and Greet</div>
                             <div class="label">Create Design</div>
@@ -233,17 +233,16 @@
             <div class="row justify-content-center">
                 <div class="col-12">
 
-                    <div class="div" style="border: 2px solid gray;">
-                        <div class="div" style="padding: 55px;">
+                    
                             <img class="img-fluid" src="{{ asset('front_assets/img/design_picture_.jpg') }}"
                                 alt="">
 
-                        </div>
+                        
 
-                    </div>
+                    
                     <div class="card-body">
                         <h4 class="card-title text-center">
-                            <a href="{{ url('branding') }}" class="btn" style="color: gray; border: 2px solid gray;">
+                            <a href="{{ url('exclusive') }}" class="btn" style="color: gray; border: 1px solid gray;">
                                 EXCLUSIVE SHOP
                             </a>
                         </h4>

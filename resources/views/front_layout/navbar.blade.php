@@ -6,7 +6,7 @@
                     <div class="header-top-left">
                         <a href="">
                             <i class="fa fa-phone"></i>
-                            01718542095
+                             01914 66 33 11
                         </a>
                     </div>
                 </div>
@@ -15,7 +15,7 @@
                         <li><a href="https://www.facebook.com/share/1EudBRVVXr/?mibextid=LQQJ4d"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <!--<li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
                     </ul>
                 </div>
             </div>
@@ -26,7 +26,7 @@
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo" >
                 <a href="{{url('home')}}">
-                    <img style="height: 60px ;width: 100px " src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
+                    <img style="height: 52.8px ;width: 130px " src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
                 </a>
             </div>
             <nav id="nav-menu-container">

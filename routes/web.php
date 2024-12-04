@@ -2,8 +2,10 @@
 
 use App\Http\Controllers\Backend\UserController;
 use App\Http\Controllers\Backend\BrandingController;
+use App\Http\Controllers\Backend\ExclusiveController;
 use App\Http\Controllers\Backend\EXteriorController;
 use App\Http\Controllers\Backend\InteriorController;
+use App\Http\Controllers\Backend\MessageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -11,20 +13,15 @@ Route::get('/', function () {
     return view('frontend_pages.home');
 });
 
-Route::get('/home', function () {
-    return view('frontend_pages.home');
-});
 Route::get('/home', function () { return view('frontend_pages.home');});
-Route::get('/portfolio', function () { return view('frontend_pages.portfolio');});
 Route::get('/services', function () { return view('frontend_pages.portfolio');});
+Route::get('/portfolio', function () { return view('frontend_pages.portfolio');});
 Route::get('/about', function () { return view('frontend_pages.about');});
-Route::get('/blog-single', function () { return view('frontend_pages.blog-single');});
-Route::get('/blog-home', function () { return view('frontend_pages.blog-home');});
-Route::get('/portfolio-details', function () { return view('frontend_pages.portfolio-details');});
 Route::get('/contact', function () { return view('frontend_pages.contact');});
 Route::get('/interior', function () { return view('frontend_pages.interior');});
 Route::get('/exterior', function () { return view('frontend_pages.exterior');});
 Route::get('/branding', function () { return view('frontend_pages.branding');});
+Route::get('/exclusive', function () { return view('frontend_pages.exclusive');});
 
 Route::get('/dashboard', function () {
     return view('backend.dashboard');
@@ -53,45 +50,14 @@ Route::middleware('auth')->group(function () {
         Route::resource('branding', BrandingController::class)->names('branding');
     });
 
-    Route::group(['prefix' => 'branch'], function () {
-        Route::resource('branch', BrancheController::class)->names('branch');
+    Route::group(['prefix' => 'exclusive'], function () {
+        Route::resource('exclusive', ExclusiveController::class)->names('exclusive');
     });
 
-    Route::group(['prefix' => 'branch-message'], function () {
-        Route::resource('branch-message', BranchmessageController::class)->names('branch_message');
+    Route::group(['prefix' => 'message'], function () {
+        Route::resource('message', MessageController::class)->names('message');
     });
 
-    Route::group(['prefix' => 'branch-slider'], function () {
-        Route::resource('branchslider', BranchsliderController::class)->names('branchslider');
-    });
-
-    Route::group(['prefix' => 'facility'], function () {
-        Route::resource('facility', FacilitieController::class)->names('facility');
-    });
-
-    Route::group(['prefix' => 'main-address'], function () {
-        Route::resource('main-address', Main_addresController::class)->names('main_address');
-    });
-
-    Route::group(['prefix' => 'main-sliders'], function () {
-        Route::resource('main-sliders', Main_sliderController::class)->names('main_slider');
-    });
-
-    Route::group(['prefix' => 'offers'], function () {
-        Route::resource('offers', OfferController::class)->names('offer');
-    });
-
-    Route::group(['prefix' => 'room'], function () {
-        Route::resource('room', RoomController::class)->names('room');
-    });
-
-    Route::group(['prefix' => 'room-photo'], function () {
-        Route::resource('room-photo', RoomphotoController::class)->names('room_photo');
-    });
-
-    Route::group(['prefix' => 'general'], function () {
-        Route::resource('general', GeneralinfoController::class)->names('general');
-    });
 
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

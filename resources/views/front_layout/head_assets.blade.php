@@ -1,7 +1,7 @@
 <!-- Mobile Specific Meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Favicon-->
-<link rel="shortcut icon" href="{{asset('front_assets/img/logo.png')}}">
+<link rel="shortcut icon" href="{{asset('front_assets/img/wicon.jpg')}}">
 <!-- Author Meta -->
 <meta name="author" content="colorlib">
 <!-- Meta Description -->
@@ -11,7 +11,7 @@
 <!-- meta character set -->
 <meta charset="UTF-8">
 <!-- Site Title -->
-<title>Tangre Furniture</title>
+<title>The Work Station</title>
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 <!--CSS============================================= -->

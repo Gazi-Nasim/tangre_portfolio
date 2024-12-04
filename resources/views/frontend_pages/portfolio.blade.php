@@ -23,7 +23,7 @@
                         Interiors
                     </a>
                 </h4> --}}
-                    <h2>Interiors</h2>
+                    <h2>INTERIOR</h2>
                 </div>
 
                 <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
@@ -111,11 +111,10 @@
                     </div>
                 </div>
             </div>
-            <br>
-            <br>
+            <br><br><br><br><br>
             <div class="row">
                 <div class="main-title text-center col-12 " style="margin-bottom: 15px">
-                    <h2>Exteriors</h2>
+                    <h2>EXTERIOR</h2>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
@@ -206,10 +205,10 @@
                     </div>
                 </div>
             </div>
-            <br>
+            <br><br><br><br><br>
             <div class="row">
                 <div class="main-title text-center col-12" style="margin-bottom: 15px">
-                    <h2>Branding</h2>
+                    <h2>BRANDING</h2>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-news card">

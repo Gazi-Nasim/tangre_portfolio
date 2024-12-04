@@ -3,31 +3,30 @@
     <h2 class="text-center">Now its your turn to build your dream</h2>
     @endif --}}
     <hr class="footer-line"> </span>
-    <div class="container" style="background-color: #8c908316; height: 400px; padding:30px;">
+    <div class="container" style="background-color: #8c908316; height: 450px; padding:50px;">
         <div class="justify-content-center">
             <div class="row">
-                <div class="col-md-6 text-start footer-content">
-                    <p class="text-justify"> HELP : 01844 27 47 67 <br> info@tws.com, 01914 66 33 11 <br> 7 DAYS, 9AM TO 9PM <br> ALL OVER BANGLADESH  </p>
+                <div class="col-6 text-start footer-content">
+                    <p class="text-justify"><br>E-mail: info@twsinex.com, <br> 7 DAYS, 9AM TO 9PM <br> ALL OVER BANGLADESH  </p>
                 </div>
 
-                <div class="col-md-6 footer-content text-right">
+                <div class="col-6 footer-content text-right">
+                    <br><br><br>
                     <h4>INFORMATION</h4>
                     <p class=""> ABOUT US &nbsp; SERVICES &nbsp;  PORTFOLIO &nbsp; CONTUCT US &nbsp; EXCLUSIVE SHOP</p>
                 </div>
             </div>
             <br>
             <br>
-
             <div class="row">
-                <div class="col-md-5 text-start footer-content">
-                    <h4>Company Name</h4>
-                    <img style="height: 60px; width: 170px;" src="{{ asset('front_assets/img/logo2.png') }}"
+                <div class="col-5 text-start footer-content">
+                    <img style="height:40px; width: 100px;" src="{{ asset('front_assets/img/Logo2.png') }}"
                         alt="logo Image">
-                    <p class="text-justify"> This footer title is a key to
-                        working with Builder & Designer. Our goal is
-                        simple: to create spaces with unique architectural value that showcase knowledge and
-                        expertise
-                        for tomorrow’s sustainable future.</p>
+                        <br>
+                        <br>
+                    <p class="text-justify"> The Work Station is a luxury full-service Interior-Exterior & Design firm.
+                    Built on reputation, service and design acumen, workstation uses its extensive knowledge and
+                    experience to transform your needs into a luxurious Space.. </p>
                         <p>Copyright © 2025, the work Station</p>
                 </div>
                 <!-- Vertical Divider -->
@@ -54,10 +53,8 @@
                             <i style="color: gray;" class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                         </a>
                     </div>
-                    <p>House: 427, Road: 30, Mohakhali DOHS, Dhaka. <br> Call us or WhatsApp at: 01718 542095, 01914 66 33 11 <br> ferdous.tws@gmail.com</p>
-
+                    <p>House: 427, Road: 30, Mohakhali DOHS, Dhaka. <br> Call us or WhatsApp at: 01718 542095 <br> ferdous@twsinex.com</p>
                 </div>
-
             </div>
         </div>
     </div>

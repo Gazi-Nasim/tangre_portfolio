@@ -19,7 +19,6 @@ class InteriorController extends Controller
 
         $data = Interior::get();
         return view('backend.pages.interior.list', compact('data'));
-
     }
 
     /**
@@ -39,8 +38,10 @@ class InteriorController extends Controller
 
         $validatedData = $request->validate([
             'photo' => 'required',
+            'name' => 'required',
         ], [
             'photo.required' => 'Select a Photo',
+            'name.required' => 'Give a Title',
         ]);
 
         $photo = time() . "_" . $request->photo->getClientOriginalName();
@@ -74,6 +75,11 @@ class InteriorController extends Controller
      */
     public function update(Request $request, string $id)
     {
+        $validatedData = $request->validate([
+            'name' => 'required',
+        ], [
+            'name.required' => 'Give a Title',
+        ]);
 
         if (isset($request->photo)) {
             $photo = time() . "_" . $request->photo->getClientOriginalName();
