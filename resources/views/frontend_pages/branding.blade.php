@@ -2,19 +2,20 @@
 
 @section('content')
     <!--######## start banner Area ########-->
-    
+
     <section class=" relative" id="home">
         <div class="container">
             <img src="{{ asset('front_assets/branding/branding.png') }}" class="img-fluid" alt="Img">
-         </div>
-         <br><br><br>
-  
+        </div>
+        <br><br><br>
+
         <div class="col-lg-12">
             <div class=" text-center">
                 {{-- <h1>Latest News from all categories</h1> --}}
                 <p style=" font-size:20px;">
                     Working with us is easy…, Using design thinking and logic, We come up with creative strategies <br>
-                    We really listen to the client's needs, create them And to produce uniquely, and quite frankly,<br> We give you a suggestion about your success.
+                    We really listen to the client's needs, create them And to produce uniquely, and quite frankly,<br> We
+                    give you a suggestion about your success.
                 </p>
             </div>
         </div>
@@ -32,114 +33,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/branding/Profile Final 02-08.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
+                @foreach ($brandings as $item)
+                    <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
+                        <div class="single-news card">
+                            <img class="card-top-img" src="{{ asset('uploads/pictures/' . $item->photo) }}"
+                                alt="Card image cap">
+                            <h4 class="card-title text-center">{{$item->name}}</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 001-02.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-01.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-02.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-03.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-04.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-05.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-06.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-07.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-08.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-09.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-10.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-11.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-13.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-14.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final 02-15.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final T-01.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img"  src="{{ asset('front_assets/branding/Profile Final-02.jpg') }}" alt="Card image cap">
-<h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>

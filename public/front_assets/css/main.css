@@ -2163,6 +2163,8 @@ h6 {
 #header #logo img {
     padding: 0;
     margin: 0;
+    height: 52.8px;
+    width: 130px;
 }
 
 @media (max-width: 768px) {
@@ -2172,6 +2174,7 @@ h6 {
 
     #header #logo img {
         max-height: 40px;
+        width: 100px;
     }
 }
 
@@ -4590,3 +4593,11 @@ h6 {
     border: 1px solid #3c8d066d;
     width: 84%;
 }
+
+/* @media screen and (max-width: 768px) {
+    #logo a img{
+        height: 52.8px ;
+        width: 120px;
+    }
+
+} */

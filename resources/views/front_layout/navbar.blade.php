@@ -25,8 +25,8 @@
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo" >
-                <a href="{{url('home')}}">
-                    <img style="height: 52.8px ;width: 130px " src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
+                <a href="{{route('frontend.getHome')}}">
+                    <img src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
                 </a>
             </div>
             <nav id="nav-menu-container">
@@ -40,7 +40,8 @@
                             <li><a href="{{url('branding')}}">Branding</a></li>
                         </ul>
                     </li>
-                    <li><a href="{{url('portfolio')}}">portfolio</a></li>
+                    <li><a href="{{url('portfolio')}}">Portfolio</a></li>
+                    {{-- <li><a href="{{url('exclusive')}}">Exclusive</a></li> --}}
                     {{-- <li class="menu-has-children"><a href="{{url('elements')}}">Portfolio</a>
                         <ul>
                             <li><a href="{{url('portfolio-details')}}">Portfolio Details</a></li>

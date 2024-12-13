@@ -36,87 +36,22 @@
                     <h1>TEAM</h1>
                     <h4>Together, Everyone, Achieves, More</h4>
                 </div>
+                @foreach ($members as $team )
+
                 <div class="col-lg-3 col-md-6">
                     <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/ferdous.png') }}" alt="Card image cap">
+                        <img class="card-top-img" src="{{ asset('uploads/pictures/'.$team->photo) }}" alt="Card image cap">
                         <img src="../front_assets/img/PP-01.png" alt="">
-                        <h4 class="card-title text-center">Ferdous</h4>
+                        <h4 class="card-title text-center">{{ $team->name }}</h4>
 
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/afzal.png') }}" alt="Card image cap"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Afzal</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/sumon.png') }}" alt="Card image cap">
-                        <h4 class="card-title text-center">Sumon</h4>
+                @endforeach
 
-                        {{-- <div class="card-body">
-						<h4 class="card-title">
-							<a href="#">
-								Life Advice Looking At Window
-							</a>
-						</h4>
-						<p class="card-text">It is a good idea to think of your PC as an office. It stores files, programs, pictures. This
-							can be compared to an actual.</p>
-					</div> --}}
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/morshed.png') }}" alt="Card image cap">
-                        <h4 class="card-title text-center">Morshed</h4>
-
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/akram.png') }}" alt="Card image cap">
-                        <h4 class="card-title text-center">Akram</h4>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/hemel.png') }}" alt="Card image cap">
-                        <h4 class="card-title text-center">Hemal </h4>
-
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/aminul.png') }}" alt="Card image cap">
-                        <h4 class="card-title text-center">Aminul </h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/musfik.png') }}" alt="Card image cap">
-                        <h4 class="card-title text-center">Musfik </h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/mehedi.png') }}" alt="Card image cap">
-                        <h4 class="card-title text-center">Mehidi </h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/img/naznin.png') }}" alt="Card image cap">
-                        <h4 class="card-title text-center">Naznin </h4>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
     <!--######## End Latest News Area ########-->
 
-   
+
 @endsection

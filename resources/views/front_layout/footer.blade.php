@@ -3,7 +3,7 @@
     <h2 class="text-center">Now its your turn to build your dream</h2>
     @endif --}}
     <hr class="footer-line"> </span>
-    <div class="container" style="background-color: #8c908316; height: 450px; padding:50px;">
+    <div class="container" style="background-color: #8c908316; height: auto; padding:50px;">
         <div class="justify-content-center">
             <div class="row">
                 <div class="col-6 text-start footer-content">
@@ -13,7 +13,7 @@
                 <div class="col-6 footer-content text-right">
                     <br><br><br>
                     <h4>INFORMATION</h4>
-                    <p class=""> ABOUT US &nbsp; SERVICES &nbsp;  PORTFOLIO &nbsp; CONTUCT US &nbsp; EXCLUSIVE SHOP</p>
+                    <p class="col-sm-12"> ABOUT US &nbsp; SERVICES &nbsp;  PORTFOLIO &nbsp; CONTUCT US &nbsp; EXCLUSIVE SHOP</p>
                 </div>
             </div>
             <br>

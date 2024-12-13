@@ -88,7 +88,7 @@ class InteriorController extends Controller
         }
 
         Interior::find($id)->update($validatedData);
-        session()->flash('success', 'Branch Information Has Been Updated !!');
+        session()->flash('success', 'Interior Information Has Been Updated !!');
         return redirect()->route('interior.index');
     }
 
@@ -99,7 +99,7 @@ class InteriorController extends Controller
     {
 
         Interior::find($id)->delete();
-        session()->flash('success', 'Branch Has Been Deleted !!');
+        session()->flash('success', 'Interior Has Been Deleted !!');
         return back();
     }
 }

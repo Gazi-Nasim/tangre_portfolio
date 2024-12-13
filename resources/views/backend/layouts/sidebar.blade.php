@@ -176,6 +176,30 @@ $usr = Auth::guard('web')->user();
                     </li>
                 </ul>
             </li>
+            <li class="nav-item {{ Route::is('team.index') || Route::is('team.create') || Route::is('team.edit')  ? 'menu-open' : null }} ">
+                <a href="#" class="nav-link {{ Route::is('team.index') || Route::is('team.create') || Route::is('team.edit')  ? 'active' : null }} ">
+                    <!-- <i class="nav-icon fas fa-solid fa-user"></i> -->
+                    <i class="nav-icon fas fa-solid fa-code-branch"></i>
+                    <p>
+                        Team
+                        <i class="fas fa-angle-left right"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="{{route('team.create')}}" class="nav-link {{ Route::is('team.create') ? 'active' : 'null' }} ">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Add</p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{route('team.index')}}" class="nav-link {{ Route::is('team.index') ? 'active' : 'null' }} ">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>List</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
 
             <li class="nav-item {{ Route::is('message.index') || Route::is('message.create') || Route::is('message.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('message.index') || Route::is('message.create') || Route::is('message.edit')  ? 'active' : null }} ">
@@ -202,30 +226,24 @@ $usr = Auth::guard('web')->user();
             </ul>
             </li>
 
-            {{-- <li class="nav-item {{ Route::is('branchslider.index') || Route::is('branchslider.create') || Route::is('branchslider.edit')  ? 'menu-open' : null }} ">
-                <a href="#" class="nav-link {{ Route::is('branchslider.index') || Route::is('branchslider.create') || Route::is('branchslider.edit')  ? 'active' : null }} ">
+            <li class="nav-item {{ Route::is('home.index') || Route::is('home.create') || Route::is('home.edit')  ? 'menu-open' : null }} ">
+                <a href="#" class="nav-link {{ Route::is('home.index') || Route::is('home.create') || Route::is('home.edit')  ? 'active' : null }} ">
                     <i class="nav-icon fa fa-solid fa-sliders">S</i>
                     <!-- <i class="nav-icon fas fa-users mr-2"></i> -->
                     <p>
-                        Resort Slider
+                        Cover Photos
                         <i class="fas fa-angle-left right"></i>
                     </p>
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="{{route('branchslider.create')}}" class="nav-link {{ Route::is('branchslider.create') ? 'active' : 'null' }} ">
+                        <a href="{{route('home.create')}}" class="nav-link {{ Route::is('home.create') ? 'active' : 'null' }} ">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Add</p>
                         </a>
                     </li>
-                    <li class="nav-item ">
-                        <a href="{{route('branchslider.index')}}" class="nav-link {{ Route::is('branchslider.index') ? 'active' : 'null' }} ">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>List</p>
-                        </a>
-                    </li>
                 </ul>
-            </li> --}}
+            </li>
 
             {{-- <li class="nav-item {{ Route::is('facility.index') || Route::is('facility.create') || Route::is('facility.edit')  ? 'menu-open' : null }} ">
                 <a href="#" class="nav-link {{ Route::is('facility.index') || Route::is('facility.create') || Route::is('facility.edit')  ? 'active' : null }} ">

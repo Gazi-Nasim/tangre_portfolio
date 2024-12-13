@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
+
 <head>
     @include('front_layout.head_assets')
 </head>

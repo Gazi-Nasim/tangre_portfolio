@@ -104,6 +104,7 @@
             </div>
         </div>
     </section>
+    {{$generals}}
     <!--######## End Latest News Area ########-->
 
     <!--######## Start Recent Completed Project Area ########-->
@@ -128,6 +129,7 @@
                                     <hr>
                                 </a>
                             </h4>
+
                             <p class="card-text text-justify">We try to capture the play of light and air in your room
                                 keeping the
                                 necessary aspect of your room.
@@ -166,11 +168,10 @@
                                     <hr>
                                 </a>
                             </h4>
-                            <p class="card-text; text-justify">
+                            <p class="card-text text-justify">
                                 Working with us is easy…, Using design thinking and logic, We come up with creative
                                 strategies.
                                 <br>
-
                                 We really listen to the client's needs, create them And to produce uniquely, and quite
                                 frankly, We give you a suggestion about your success.
                             </p>
@@ -233,16 +234,16 @@
             <div class="row justify-content-center">
                 <div class="col-12">
 
-                    
-                            <img class="img-fluid" src="{{ asset('front_assets/img/design_picture_.jpg') }}"
-                                alt="">
 
-                        
+                    <img class="img-fluid" src="{{ asset('front_assets/img/design_picture_.jpg') }}" alt="">
 
-                    
+
+
+
                     <div class="card-body">
                         <h4 class="card-title text-center">
-                            <a href="{{ url('exclusive') }}" class="btn" style="color: gray; border: 1px solid gray;">
+                            <a href="{{ url('exclusive') }}" class="btn"
+                                style="color: gray; border: 1px solid gray;">
                                 EXCLUSIVE SHOP
                             </a>
                         </h4>
