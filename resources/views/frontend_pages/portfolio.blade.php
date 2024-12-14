@@ -16,6 +16,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="main-title text-center col-12" style="margin-bottom: 15px">
                     {{-- <h4 class="card-title">
@@ -35,83 +36,6 @@
                         </div>
                     </div>
                 @endforeach
-                {{-- <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -22.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -23.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -25.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -26.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -27.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -28.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -29.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -30.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card"style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -31.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -32.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/interior/Template -33.jpg') }}"
-                            alt="Card image cap">
-                            <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div> --}}
             </div>
             <br><br><br><br><br>
             <div class="row">
@@ -128,94 +52,6 @@
                         </div>
                     </div>
                 @endforeach
-                {{-- <div class="col-lg-4 col-md-6">
-                    <div class="single-news card" style="margin-bottom: 15px; margin-top: 15px;">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -01.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -02.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -03.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -06.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -07.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -08.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -09.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -10.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -11.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -13.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -14.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-news card">
-                        <img class="card-top-img" src="{{ asset('front_assets/exterior/Template -15.jpg') }}"
-                            alt="Card image cap">
-                        <h4 class="card-title text-center">Title</h4>
-
-                    </div>
-                </div> --}}
             </div>
             <br><br><br><br><br>
             <div class="row">

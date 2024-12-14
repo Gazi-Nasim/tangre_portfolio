@@ -26,7 +26,7 @@
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo" >
                 <a href="{{route('frontend.getHome')}}">
-                    <img src="{{asset('front_assets/img/logo.png')}}" alt="" title="" />
+                    <img src="{{asset('uploads/general/'.$generals[0]->logo ?? '')}}" alt="" title="" />
                 </a>
             </div>
             <nav id="nav-menu-container">

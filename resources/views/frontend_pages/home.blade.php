@@ -19,7 +19,7 @@
     <!--######## start banner Area ########-->
     <section class=" relative" id="home">
         <div class="container">
-            <img src="{{ asset('front_assets/img/home_page_cover_photo.jpg') }}" class="img-fluid" alt="Img">
+            <img src="{{ asset('uploads/general/'.$generals[0]->home_cover_photo ?? '') }}" class="img-fluid" alt="Img">
             {{-- <div class="row fullscreen d-flex align-items-center"> --}}
             {{-- <div class="banner-content col-lg-9 col-md-12">
                     <h1>
@@ -64,7 +64,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
-                        <img class="card-top-img" style="height: 600px;" src="{{ asset('front_assets/img/celling.png') }}"
+                        <img class="card-top-img" style="height: 600px;" src="{{ asset('uploads/general/'.$generals[0]->home_interior_photo ?? '') }}"
                             alt="Card image cap">
                         <div class="card-body ">
                             <h4 class="card-title text-center design-title">
@@ -78,7 +78,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
                         <img class="card-top-img" style="height: 600px;"
-                            src="{{ asset('front_assets/img/Wooden work.png') }}" alt="Card image cap">
+                            src="{{ asset('uploads/general/'.$generals[0]->home_exterior_photo ?? '') }}" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title text-center">
                                 <a href="{{ url('exterior') }}">
@@ -91,7 +91,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-news card">
                         <img class="card-top-img" style="height: 600px;"
-                            src="{{ asset('front_assets/img/Branding Banner.png') }}" alt="Card image cap">
+                            src="{{ asset('uploads/general/'.$generals[0]->home_branding_photo ?? '') }}" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title text-center">
                                 <a href="{{ url('branding') }}">
@@ -104,7 +104,7 @@
             </div>
         </div>
     </section>
-    {{$generals}}
+    
     <!--######## End Latest News Area ########-->
 
     <!--######## Start Recent Completed Project Area ########-->
@@ -233,13 +233,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
-
-
-                    <img class="img-fluid" src="{{ asset('front_assets/img/design_picture_.jpg') }}" alt="">
-
-
-
-
+                    <img class="img-fluid" src="{{ asset('uploads/general/'.$generals[0]->home_exclusive_photo ?? '') }}" alt="">
                     <div class="card-body">
                         <h4 class="card-title text-center">
                             <a href="{{ url('exclusive') }}" class="btn"

@@ -5,7 +5,7 @@
 
     <section class=" relative" id="home">
         <div class="container">
-            <img src="{{ asset('front_assets/img/interior_cover_photo.jpg') }}" class="img-fluid" alt="Img">
+            <img src="{{ asset('uploads/general/'.$generals[0]->interior_cover_photo) }}" class="img-fluid" alt="Img">
 
         </div>
         <br>
@@ -37,9 +37,9 @@
                     </div>
                 </div>
             </div>
+            
             <div class="row">
                 @foreach ( $interiors as $interior )
-
                 <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">
                     <div class="single-news card">
                         <img class="card-top-img" src="{{ asset('uploads/pictures/'.$interior->photo) }}"
@@ -47,7 +47,6 @@
                         <h4 class="card-title text-center">{{ $interior->name }}</h4>
                     </div>
                 </div>
-
                 @endforeach
 
             </div>

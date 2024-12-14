@@ -43,7 +43,6 @@
                         <img class="card-top-img" src="{{ asset('uploads/pictures/'.$team->photo) }}" alt="Card image cap">
                         <img src="../front_assets/img/PP-01.png" alt="">
                         <h4 class="card-title text-center">{{ $team->name }}</h4>
-
                     </div>
                 </div>
                 @endforeach

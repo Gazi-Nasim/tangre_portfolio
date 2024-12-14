@@ -5,7 +5,7 @@
 
     <section class=" relative" id="home">
         <div class="container">
-            <img src="{{ asset('front_assets/exterior/cover_photo.jpg') }}" class="img-fluid" alt="Img">
+            <img src="{{ asset('uploads/general/'.$generals[0]->exterior_cover_photo ?? '') }}" class="img-fluid" alt="Img">
 
         </div>
         <br>
@@ -36,6 +36,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="row">
                 @foreach ($exteriors as $exterior )
                 <div class="col-lg-4 col-md-6" style="margin-bottom: 15px; margin-top: 15px;">

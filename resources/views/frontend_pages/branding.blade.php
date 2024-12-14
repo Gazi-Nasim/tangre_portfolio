@@ -2,10 +2,10 @@
 
 @section('content')
     <!--######## start banner Area ########-->
-
+    
     <section class=" relative" id="home">
         <div class="container">
-            <img src="{{ asset('front_assets/branding/branding.png') }}" class="img-fluid" alt="Img">
+            <img src="{{ asset('uploads/general/'.$generals[0]->branding_cover_photo ?? '') }}" class="img-fluid" alt="Img">
         </div>
         <br><br><br>
 

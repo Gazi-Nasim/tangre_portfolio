@@ -3,8 +3,7 @@
     <!--######## start banner Area ########-->
     <section class=" relative" id="home">
         <div class="container">
-            <img src="{{ asset('front_assets/img/contact_cover.jpg') }}" class="img-fluid" alt="Img">
-
+            <img src="{{ asset('uploads/general/'.$generals[0]->contact_cover_photo ?? '') }}" class="img-fluid" alt="Img">
         </div>
         <br>
         <br>
@@ -23,7 +22,6 @@
         <div class="container">
             <div class="main-title text-center">
                 <h1>CONTACT </h1>
-
             </div>
             <div class="row contact-wrap">
                 <div class="col-3">

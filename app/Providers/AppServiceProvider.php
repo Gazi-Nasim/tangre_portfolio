@@ -21,7 +21,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $generals = GeneralInfo::all();
+        $generals = GeneralInfo::get();
         View::share('generals', $generals);
     }
 }
